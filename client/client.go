@@ -1,7 +1,6 @@
 package client
 
 import (
-	at "airtableinterface/airtable"
 	"bytes"
 	"context"
 	"encoding/json"
@@ -10,6 +9,8 @@ import (
 	"net/http"
 	"net/url"
 	"time"
+
+	at "github.com/nstearns96/Airtable-Interface/airtable"
 
 	"golang.org/x/time/rate"
 )
