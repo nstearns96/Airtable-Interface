@@ -1,4 +1,4 @@
-module airtableinterface
+module github.com/nstearns96/Airtable-Interface
 
 go 1.22.2
 
